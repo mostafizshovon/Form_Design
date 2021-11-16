@@ -1,0 +1,31 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input,select{
+    width: 90%;
+    padding: 10px 2%;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+select{
+    width: 94.3%;
+}
+textarea{
+    min-height: 100px;
+    width: 93.6%;
+}
+input[type="submit"]{
+    width: 200px;
+    border: 1px solid aqua;
+    background: aqua;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+input[type="submit"]:hover{
+    background: black;
+    color: white;
+    border: none;
+}
